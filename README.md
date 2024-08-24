@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Interactive Habit Tracker
+
+The Interactive Habit Tracker is a web-based application built with React, designed to help users build and maintain healthy habits. This application allows users to create and manage habits, track their progress on a calendar, and receive reminders to stay on track.
+
+## Table of Contents
+
+- [Features](#features)
+  - [Core Functionality](#core-functionality)
+  - [Advanced Features (Optional)](#advanced-features-optional)
+- [Technical Requirements](#technical-requirements)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+### Core Functionality
+
+1. **Habit Creation and Management:**
+
+   - Create, edit, and delete custom habits.
+   - Set target frequencies (e.g., daily, weekly) and reminders.
+   - Store habit data locally to persist across sessions.
+
+2. **Habit Tracking Interface:**
+
+   - Visualize progress on a calendar.
+   - Track habit streaks and overall completion rates.
+   - View a dashboard summarizing weekly and monthly progress.
+
+3. **Habit Reminders:**
+   - Receive notifications to remind users to complete their habits.
+   - Alerts for missed habits to encourage consistency.
+
+### Advanced Features (Optional)
+
+1. **Habit Streaks and Rewards:**
+
+   - Track streaks and reward users for reaching milestones.
+   - Create and join habit challenges with friends or publicly.
+
+2. **Habit Analytics:**
+
+   - Provide insights into habit trends and productivity.
+   - Display graphs and charts for a visual overview of progress.
+
+3. **Social Sharing:**
+   - Share habit milestones on social media.
+   - Join community groups for encouragement and motivation.
+
+## Technical Requirements
+
+- **React and JSX:**
+  - Component-based architecture for better modularity and reusability.
+- **State Management:**
+  - Use of `useState`, `useEffect`, `useContext`, or `useReducer` for managing habit data and notifications.
+- **Local Storage:**
+
+  - Persist user data using `localStorage` to ensure progress is not lost.
+
+- **Calendar Integration:**
+
+  - Implemented using a third-party library such as `react-calendar` or `fullcalendar-react`.
+
+- **Styling:**
+
+  - Responsive design with CSS or CSS-in-JS, enhanced with transitions and animations.
+
+- **Error Handling:**
+  - Robust error handling for invalid inputs and potential user errors.
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ensure you have the following installed:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Node.js](https://nodejs.org/) (v14.x or later)
+- [npm](https://www.npmjs.com/) (v6.x or later) or [yarn](https://yarnpkg.com/) (v1.22.x or later)
